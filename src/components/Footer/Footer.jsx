@@ -1,11 +1,19 @@
-import React from 'react'
-
 const Footer = () => {
   return (
-    <div>
-        
+    <div
+      style={{
+        textAlign: "center",
+        marginBottom: 10,
+      }}
+    >
+      Made with ♥ by{" "}
+      <a
+        style={{ cursor: "pointer" }}
+      >
+        BW TECH Developer
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
