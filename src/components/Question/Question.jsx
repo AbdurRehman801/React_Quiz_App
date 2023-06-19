@@ -52,7 +52,7 @@ const Question = ({
         <div className='question'>
             <h1>Question {currQuestion + 1}</h1>
             <div className='singleQuestion'>
-                <h2>{questions[currQuestion].question}</h2>
+                <h2>{questions[currQuestion]?.question}</h2>
                 <div className='options'>
                     {error && <ErrorMessage>{error}</ErrorMessage>}
                     {options && options.map((i) => (<button
